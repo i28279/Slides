@@ -35,6 +35,11 @@ body {
   height: 50vw;
   border-radius: 10px;
 }
+.parent p {
+  white-space: nowrap;
+  overflow: scroll;
+}
+.parent p::-webkit-scrollbar {width: 0;}
 .left, .right {
   position: absolute;
   left: 0;
